@@ -89,7 +89,7 @@ int main(){
     C c(6);
     a= &b;
     a -> show();
-    a= &c;
+    a= &c;  
     a -> show();  
 }
 //answer to qn : What happens when A a; is used::
