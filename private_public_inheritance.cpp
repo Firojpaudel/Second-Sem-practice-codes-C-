@@ -35,9 +35,10 @@ class C: private A{ //accessing the base class privately
 
 int main()
 {
+    int a;
     B obj;
     //obj.a; //error not accessible
-    obj.b; //ok
+    a= obj.b; //ok
     //obj.c; //error not accessible
 
     C obj1;
@@ -46,4 +47,3 @@ int main()
     //obj1.c; //error not accessible
     return 0;
 }
-//Just for green tick :/
