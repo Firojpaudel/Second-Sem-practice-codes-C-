@@ -32,3 +32,8 @@ int main(){
     x.B::show();
     return 0;
 }
+
+// Muptipath => Requires the use of virtual base class :) 
+
+// Check Ambiguity_inheritance_multipath.cpp
+
