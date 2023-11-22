@@ -1,4 +1,4 @@
-// Done with multiple
+// Done with multiple on prev. 
 
 //Now for Multipath inheritance, middle class (direct base class) should be made virtual. So that child class can directly access grandparent class
 

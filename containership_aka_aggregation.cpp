@@ -41,3 +41,11 @@ int main(){
     c.show();
     return 0;
 }
+
+//Here class Student acts as an abstract class 
+
+/*
+What is Abstract class?
+
+- Class whose instance is not created but is used to inherit (as a framework)
+*/
