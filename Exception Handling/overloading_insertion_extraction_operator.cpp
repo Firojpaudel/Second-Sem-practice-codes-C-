@@ -32,3 +32,18 @@ int main(){
     return 0;
 }
 
+/*
+Reason for going for global or friend function approach:
+    1. Symmetry and Consistency:
+    - If we overload "<<" and ">>" as member functions, their usage becomes unsymmetrical and might be confusing.
+      For instance, if "<<" is a member function of a class called Myclass, using it would look like:
+                Myclass obj;
+                obj << cout; // Looks inconsistent and unsual
+      Whereas, if we overload them globally or as a friend function, we get consistent syntax for both input and output operations.
+                Myclass obj;
+                cout << obj;
+    2. Improved Encapsulation:
+    - Allows functions to access private and protected members of a class, which is not possible for member functions.
+    3. Support for implicit Conversions:
+    - Classes can suppport implicit conversions more naturally. Can use << and >> without any explicit conversions. 
+*/
