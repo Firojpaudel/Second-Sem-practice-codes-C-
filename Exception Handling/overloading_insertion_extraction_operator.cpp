@@ -47,3 +47,4 @@ Reason for going for global or friend function approach:
     3. Support for implicit Conversions:
     - Classes can suppport implicit conversions more naturally. Can use << and >> without any explicit conversions. 
 */
+
