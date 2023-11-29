@@ -56,3 +56,4 @@ class C: public A, public B{ //derived class (multiple inheritance)
             cdata =c;
         }
 };
+//testing 
