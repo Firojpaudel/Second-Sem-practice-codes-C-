@@ -8,7 +8,7 @@ class code{
     code(int a){ //parameterized
         id =a;
     }
-    code(code &x){ //refrence 
+    code(code &x){ //reference 
         id = x.id;
     }
     void display(){
